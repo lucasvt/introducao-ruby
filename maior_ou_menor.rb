@@ -9,18 +9,18 @@ puts
 puts "Começamos o jogo para você " + nome
 
 puts "Escolhendo um numero secreto entre 0 e 200"
-numero_secreto == 175
+numero_secreto = 175
 puts "Escolhido... que tal adivinhar hoje nosso numero secreto?"
 
 puts
 puts
 puts
 puts
-puts "tentativa 1"
-
-puts "entre com seu numero"
+puts "Tentativa 1"
+puts "Entre com seu numero"
 chute = gets
-puts "sera que acertou? Você chutou " + chute
+puts "Será que acertou? Você chutou " + chute
+puts chute.to_i == numero_secreto
 
 
 
